@@ -12,12 +12,26 @@ body {
     width: 1100px;
 }
 
-.navbar-inverse {
-    border-bottom: 0px;
+.navbar-fixed-top {
+    border-bottom: 1px solid #303030;
     border-top: 0px;
     margin: auto;
     padding: 10px;
     height: 80px;
+    width: 1200px;
+}
+
+.navbar-fixed-bottom {
+    border-bottom: 0px;
+    border-top: 1px solid #303030;
+    margin: auto;
+    padding: 10px;
+    height: 80px;
+    width: 1200px;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #303030;
 }
 
 .navbar-inverse .navbar-nav .open .dropdown-menu {
@@ -68,6 +82,7 @@ body {
 .navbar-brand img {
     display: inline;
     margin-right: 25px;
+    margin-left: -25px;
 }
 
 .btn-danger {
@@ -80,6 +95,10 @@ body {
 
 .blockquote-reverse footer {
     color: #F93A02;
+}
+
+.services {
+    
 }
 
 .services h4 {
@@ -108,20 +127,24 @@ body {
     color: #D2D2D2;
 }
 
-.col-sm-3 {
+.team-member {
     margin-top: 25px;
 }
 
-.col-sm-3 img {
+.team-member img {
     border: 2px solid #FFFFFF;
     width: 250px;
     height: 250px;
 }
 
-.col-sm-3 h3 {
+.team-member h3 {
     color: #F93A02;
 }
 
-.col-sm-3 h4 {
+.team-member h4 {
     color: #FFFFFF;
+}
+
+.row {
+    border-bottom: 1px solid #303030;
 }
