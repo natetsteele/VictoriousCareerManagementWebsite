@@ -20,17 +20,32 @@ body {
     height: 80px;
 }
 
-.navbar-inverse .navbar-nav .open .dropdown-menu>li>a, .navbar-inverse .navbar-nav .open .dropdown-menu {
+.navbar-inverse .navbar-nav .open .dropdown-menu {
     background-color: #232222 !important;
+    color: #9D9D9D !important;
 }
 
-.navbar-inverse .navbar-nav .open .dropdown-menu>li>a, .navbar-inverse .navbar-nav .open .dropdown-menu a::hover {
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+    background-color: transparent !important;
+    color: #9D9D9D;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a:focus {
     color: #FFFFFF !important;
 }
 
-.navbar-inverse .navbar-nav .open .dropdown-menu>li>a, .navbar-inverse .navbar-nav .open .dropdown-menu a::focus{
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover {
     color: #FFFFFF !important;
 }
+
+.dropdown-menu>.active>a {
+    color: #FFFFFF !important;
+}
+
+.navbar-inverse .navbar-nav .open>a {
+    background-color: transparent !important;
+}
+
 
 .navbar-inverse .navbar-nav .active a::after {
     border-bottom: 3px solid #F93A02;
@@ -41,8 +56,18 @@ body {
     right: 0;
 }
 
-.navbar > li > a {
-    background-color: #232222;
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    background-color: transparent !important;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #F93A02;
+    font-size: 30px;
+}
+
+.navbar-brand img {
+    display: inline;
+    margin-right: 25px;
 }
 
 .btn-danger {
@@ -50,7 +75,7 @@ body {
 }
 
 .blockquote-reverse {
-    margin-right: 20%;
+    margin-right: 15%;
 }
 
 .blockquote-reverse footer {
@@ -59,6 +84,7 @@ body {
 
 .services h4 {
     line-height: 30px;
+    color: #FFFFFF;
 }
 
 .team {
