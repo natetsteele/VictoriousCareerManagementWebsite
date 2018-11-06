@@ -1,0 +1,101 @@
+html {
+    height: auto !important;
+    padding-bottom: 100px !important;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    background-color: #232222;
+    color: #A19999;
+    margin: auto;
+    width: 1100px;
+}
+
+.navbar-inverse {
+    border-bottom: 0px;
+    border-top: 0px;
+    margin: auto;
+    padding: 10px;
+    height: 80px;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a, .navbar-inverse .navbar-nav .open .dropdown-menu {
+    background-color: #232222 !important;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a, .navbar-inverse .navbar-nav .open .dropdown-menu a::hover {
+    color: #FFFFFF !important;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a, .navbar-inverse .navbar-nav .open .dropdown-menu a::focus{
+    color: #FFFFFF !important;
+}
+
+.navbar-inverse .navbar-nav .active a::after {
+    border-bottom: 3px solid #F93A02;
+    bottom: 0px;
+    content: " ";
+    left: 0;
+    position: absolute;
+    right: 0;
+}
+
+.navbar > li > a {
+    background-color: #232222;
+}
+
+.btn-danger {
+    background-color: #F93A02;
+}
+
+.blockquote-reverse {
+    margin-right: 20%;
+}
+
+.blockquote-reverse footer {
+    color: #F93A02;
+}
+
+.services h4 {
+    line-height: 30px;
+}
+
+.team {
+    margin-top: 10%;
+}
+
+.team h1 {
+    color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 25px;
+}
+.team h3 {
+    color: #D2D2D2;
+}
+
+.team-member h2 {
+    color: #F93A02;
+}
+
+.team-member h4 {
+    color: #D2D2D2;
+}
+
+.col-sm-3 {
+    margin-top: 25px;
+}
+
+.col-sm-3 img {
+    border: 2px solid #FFFFFF;
+    width: 250px;
+    height: 250px;
+}
+
+.col-sm-3 h3 {
+    color: #F93A02;
+}
+
+.col-sm-3 h4 {
+    color: #FFFFFF;
+}
